@@ -128,15 +128,21 @@
     margin-top: 1500px;
 }
 .icon{
+    cursor:pointer ;
     margin-top: 200px;
     margin-left: 220px;
     font-size: 40px;
    
  }
+ .fa-facebook{
+    color: white;
+}
  .fa-instagram{
+    color: white;
     margin-left:20px;
  }
  .fa-linkedin{
+    color: white;
     margin-left: 20px;
  }
 
