@@ -1,0 +1,244 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@500&display=swap');
+
+/* animation */
+@keyframes color-change {
+    form{
+        background-color:  rgb(20, 57, 156);
+    }
+
+    to{
+        background-color:red;
+    }
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF
+    
+}
+
+
+
+/* header styels  */
+ main{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+   
+   background-color: black;
+    width: 1300px;
+    height: 646px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+
+
+
+.header-font{
+    color: white;
+    position: absolute;
+     width: 500px;
+    top: 100px;
+    left: 250px;
+    font-size: 50px;
+
+}
+.Contrary{
+    color: white;
+    position: absolute;
+    width: 506px; 
+    height: 78px; 
+    top: 350px;
+    left: 250px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+.Watch-Live{
+    cursor:pointer ;
+    background-color:rgb(20, 57, 156);
+    color: white;
+    padding: 16px 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 480px;
+    left: 250px;
+    font-size: 30px;
+    animation: color-change 2s ease-in-out 0.5s infinite alternate none;
+    animation-play-state: running;
+}
+
+#aro{
+    color: white;
+    position: absolute;
+    top: 493px;
+    left: 460px;
+    font-size: 30px;
+}
+#image img{
+    height: 570px;
+    
+}
+#image{
+    position:absolute;
+    top: 123px;
+    left: 800px;
+   
+    
+}
+.blog-flex{
+    display: flex;
+    width: 1300px;
+    height: 646px;
+    margin-top: 50px;
+    margin-left: 450px;
+    
+   
+}
+.nav{
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    left: 110px;
+    border-radius: 10px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: font-size 0.5s;
+}
+.nav a:hover{
+    font-size: 18px;
+}
+#Upcoming-Match a{  
+     position: absolute;
+    width: px;
+    height: px;
+    left: 60px;
+    top: 50px;
+    color: rgb(10, 10, 10);
+    background-color: bisque;
+    padding: 10px 20px;
+}
+#All-Group a{
+    position: absolute;
+    width: px;
+    height: px;
+    left: 60px;
+    top: 140px;
+    color: rgb(10, 10, 10);
+    background-color: bisque;
+    padding: 10px 50px;
+}
+#Blog a{
+    position: absolute;
+    width: px;
+    height: px;
+    left: 60px;
+    top: 220px;
+    color: white;
+    background-color: red;
+    padding: 10px 70px;
+}
+.blog-banner img{
+    width: 300px;
+    height:175px;
+}
+.blogs {
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 19px;
+    grid-row-gap: 25px;
+    width: 312px; 
+    height: 362px;
+    
+}
+
+
+.blog {
+    cursor:pointer ;
+    border: 2px solid rgb(185, 155, 155);
+    border-radius: 10px;
+    transition: border 0.5s;
+}
+.blog:hover{
+    border:5px solid brown 
+}
+.blog-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+.blog-details img{
+    margin-left: 10px;
+}
+.img{
+
+    position: absolute;
+}
+span { 
+    position: absolute;
+    margin-left: 10px;
+}
+.Transfer{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h3{
+    margin-left: 10px;
+}
+
+
+footer{
+    color: #F3F1FF;
+margin-top: 600px;
+background-color: black;
+padding-top: 20px;
+padding-bottom: 200px;
+}
+.moreinfos{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left:280px;
+     width: 1000px;
+     
+    
+}
+.moreinfos a{
+    color: #F3F1FF;
+    text-decoration: none;
+    font-size: 15px;
+    
+    
+    
+}
+
+
+
+
+#goal{
+    margin-top: 30px;
+    margin-left: 45%;
+    font-size: 60px;
+}
+hr{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}

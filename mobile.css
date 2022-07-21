@@ -1,0 +1,131 @@
+@media only screen and (max-width: 650px){
+   
+    .container{
+       
+        width: 100%;
+        width: 1900px;
+        height: 1300px;
+        left: 20px;
+
+        
+        
+        
+    }
+    .world-cup{
+        width: 100%;
+        display: grid;
+        
+        
+    }
+    .header-font{
+       
+        width: 100%;
+        font-size: 60px;
+        left: 360px;
+    }
+    .Contrary{
+       
+    width: 100%;
+    top: 400px;
+    left: 360px;
+    font-weight: 400;
+    font-size: 16px;
+    }
+    #image img{
+        width: 100%;
+        height: 550px;
+    }
+    #image{
+        width: 100%;
+        position:absolute;
+        top: 797px;
+        left: 350px;
+        
+    }
+    .Watch-Live{
+        position: absolute;
+       padding: 0 50px;
+       margin-top: 110px;
+       left: 550px ;
+       
+       
+      
+      
+    }
+    #aro{
+        margin-top: 110px;
+        left: 700px ;
+    }
+    .blog-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+       
+        left: 400px; 
+        background-color: white;
+        border-radius: 10px;
+        width: 100%;
+        }
+        .nav a{
+        margin-left: 180px;
+        }
+        .blog-banner img{
+            width: 500px;
+            height: 305px;
+        }
+    .blogs{
+        
+        grid-template-columns: repeat(1,1fr);
+        width: 312px;
+        margin-top: 400px;
+    }
+    .matchs{
+        margin-top: 400px;
+        margin-left: 100px;
+        padding-bottom: 700px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 20px;
+        width: 450px;
+        height: 350px;
+    }
+   
+    
+    footer{
+       width: 100%;
+       margin-top: 4500px;
+       
+        background-color: black;
+        padding-right: 400px;
+        padding-left: 400px;
+       padding-top: 20px;
+       padding-bottom: 400px;
+}
+    .moreinfos{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 140px;
+        
+}
+.moreinfos a{
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    position: absolute;
+    left: 400px;
+    
+    
+}
+#goal{
+    margin-top: 30px;
+    margin-left: 40%;
+    font-size: 60px;
+}
+
+
+.footer-2{  
+    margin-top: 1500px;
+}
+
+}

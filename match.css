@@ -1,0 +1,46 @@
+.matchs{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}
+
+
+.match-banner{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+
+  
+    
+}
+.flag{
+    position: absolute;
+    margin-left: 30px;
+}
+.germany{
+    margin-left: 180px;
+}
+.vs{
+    position: absolute;
+    margin-left: 143px;
+}
+.match-info{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.match-details{
+    margin-left: 55px;
+}
+
+.match{
+    cursor:pointer ;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+.footer{
+    margin: 0%;
+}
+
